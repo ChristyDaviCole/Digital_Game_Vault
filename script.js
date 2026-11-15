@@ -34,6 +34,26 @@ Journal Prompt
 Describe your experience with the terminal. What was one thing that surprised you about using npm or the Vite installation process? Why is the .gitignore file important when working with npm?
 */
 
+/*
+Phase 3: Components & Props
+Now we build a reusable UI component to display our games.
+
+Requirements
+Create a new component called GameItem.jsx.
+This component should accept a prop (e.g., game) and use JSX to render the game’s title and genre (e.g., inside a div or li).
+In App.jsx, create a small hardcoded array of a few game objects.
+Use .map() inside your App.jsx JSX to render a GameItem component for each game in your array.
+Replace the default Vite text in App.jsx with an <h1> that says “My Digital Game Vault.”
+
+Hints
+A prop is like an argument passed to a function. In GameItem, you can access it via the first argument of the function: function GameItem({ game }) { ... }.
+When rendering a list in React, remember to provide a unique key prop to the top-level element of the mapped item.
+If you define your GameItem component in GameItem.jsx, you’ll need to import it in App.jsx to use it.
+
+Journal Prompt
+What is the main difference between writing standard HTML and writing JSX? How do props allow the GameItem component to be reusable?
+*/
+
 const RAW_GAMES = [
   { id: 1, title: "The Legend of Zelda", genre: "Adventure", favorite: true },
   { id: 2, title: "Elden Ring", genre: "RPG", favorite: true },

@@ -22,3 +22,7 @@ Journal Prompt 3:
 Describe your experience with the terminal. What was one thing that surprised you about using npm or the Vite installation process? Why is the .gitignore file important when working with npm?
 My experience with the terminal is always intimidating because I know little about what I'm doing. Powershell initially blocked the npm command, but I used ChatGPT to help walk me through that issue. Vite asked multiple setup questions, automatically installed 144 packages, and then started the development server. What surprised me most wasn't really surprising...I expected to be confused and have some difficulty and that is exactly what occured.
 The .gitignore file is important while working with npm because it keeps the repository smaller and cleaner by preventing unnecessary files from being uploaded to GitHub.
+
+Journal Prompt 4: 
+What is the main difference between writing standard HTML and writing JSX? How do props allow the GameItem component to be reusable?
+The main difference is that HTML is a markup language used to structure webpages and JSX allows HTML-like markup to be added directly into the JS code when building applications with React. Props make the GameItem component reusable by allowing different game objects to be passed into the same component.
