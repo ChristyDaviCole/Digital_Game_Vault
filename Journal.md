@@ -13,3 +13,7 @@ Interface
 Journal Prompt 1:
 What is the most confusing part of the challenge as it’s described right now? What part of your plan are you most unsure about?
 Not being given the complete set of instructions to do everything-- it's more like a trail of breadcrumbs to follow. Thinking through program architecture myself is of course what I'm most unsure about, but I know it's what I must do. :)
+
+Journal Prompt 2:
+Explain why using .filter() and .map() is an example of “Abstraction.” How does this make your code easier to read compared to a standard for loop?
+The .filter & .map are examples of abstraction because JS does the searching and iterating through the array automatically so I don't have to write a for loop...which makes the code shorter and easier to read and understand.
