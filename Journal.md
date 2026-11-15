@@ -17,3 +17,8 @@ Not being given the complete set of instructions to do everything-- it's more li
 Journal Prompt 2:
 Explain why using .filter() and .map() is an example of “Abstraction.” How does this make your code easier to read compared to a standard for loop?
 The .filter & .map are examples of abstraction because JS does the searching and iterating through the array automatically so I don't have to write a for loop...which makes the code shorter and easier to read and understand.
+
+Journal Prompt 3: 
+Describe your experience with the terminal. What was one thing that surprised you about using npm or the Vite installation process? Why is the .gitignore file important when working with npm?
+My experience with the terminal is always intimidating because I know little about what I'm doing. Powershell initially blocked the npm command, but I used ChatGPT to help walk me through that issue. Vite asked multiple setup questions, automatically installed 144 packages, and then started the development server. What surprised me most wasn't really surprising...I expected to be confused and have some difficulty and that is exactly what occured.
+The .gitignore file is important while working with npm because it keeps the repository smaller and cleaner by preventing unnecessary files from being uploaded to GitHub.
