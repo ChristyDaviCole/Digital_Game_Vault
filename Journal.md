@@ -26,3 +26,7 @@ The .gitignore file is important while working with npm because it keeps the rep
 Journal Prompt 4: 
 What is the main difference between writing standard HTML and writing JSX? How do props allow the GameItem component to be reusable?
 The main difference is that HTML is a markup language used to structure webpages and JSX allows HTML-like markup to be added directly into the JS code when building applications with React. Props make the GameItem component reusable by allowing different game objects to be passed into the same component.
+
+Journal Prompt 5:
+What challenges did you face when connecting your JavaScript logic to your React components? How did you debug the data flow from the raw array to the final screen?
+For one, even though the code was correct, the Vite development server had stopped running, so the browser couldn't display the application. To be quite honest, the entire phase was particularly challenging because event though I'd watched the video lectures, I didn't know how to approach the integration on my own. The amount of information and the complexity of imports, exports, and connecting the JS logic to the components all felt very overwhelming. I relied heavily on step-by-step guidance just to get through it. All was not lost, though, as it was valuable to practice what I'd seen and read. I plan to continue practicing this more to be able to work independently on React projects.
